@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC96EE8B2EF429FB00B13726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96EE8A2EF429FB00B13726 /* AppDelegate.swift */; };
+		FC96EE922EF429FC00B13726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC96EE912EF429FC00B13726 /* Assets.xcassets */; };
+		FC96EE952EF429FC00B13726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC96EE932EF429FC00B13726 /* LaunchScreen.storyboard */; };
+		FC96EEA02EF42E4B00B13726 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96EE9F2EF42E4B00B13726 /* Note.swift */; };
+		FC96EEA22EF42EAE00B13726 /* NoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96EEA12EF42EAE00B13726 /* NoteStore.swift */; };
+		FC96EEA62EF42FB000B13726 /* NoteEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96EEA52EF42FB000B13726 /* NoteEditorViewController.swift */; };
+		FC96EEA82EF42FDC00B13726 /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC96EEA72EF42FDC00B13726 /* NotesListViewController.swift */; };
+		FCE199AC2FAF530900BDB451 /* YandexVisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE199AB2FAF530900BDB451 /* YandexVisionService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC96EE872EF429FB00B13726 /* rachebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rachebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC96EE8A2EF429FB00B13726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC96EE912EF429FC00B13726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC96EE942EF429FC00B13726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC96EE962EF429FC00B13726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC96EE9F2EF42E4B00B13726 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		FC96EEA12EF42EAE00B13726 /* NoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStore.swift; sourceTree = "<group>"; };
+		FC96EEA52EF42FB000B13726 /* NoteEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorViewController.swift; sourceTree = "<group>"; };
+		FC96EEA72EF42FDC00B13726 /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
+		FCE199AB2FAF530900BDB451 /* YandexVisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexVisionService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC96EE842EF429FB00B13726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC96EE7E2EF429FB00B13726 = {
+			isa = PBXGroup;
+			children = (
+				FC96EE9E2EF42C0700B13726 /* Assets */,
+				FC96EE9D2EF42BFC00B13726 /* Views */,
+				FC96EE9C2EF42BE400B13726 /* Models */,
+				FC96EE892EF429FB00B13726 /* rachebook */,
+				FC96EE882EF429FB00B13726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC96EE882EF429FB00B13726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC96EE872EF429FB00B13726 /* rachebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC96EE892EF429FB00B13726 /* rachebook */ = {
+			isa = PBXGroup;
+			children = (
+				FC96EE8A2EF429FB00B13726 /* AppDelegate.swift */,
+				FC96EE912EF429FC00B13726 /* Assets.xcassets */,
+				FC96EE932EF429FC00B13726 /* LaunchScreen.storyboard */,
+				FC96EE962EF429FC00B13726 /* Info.plist */,
+			);
+			path = rachebook;
+			sourceTree = "<group>";
+		};
+		FC96EE9C2EF42BE400B13726 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC96EE9F2EF42E4B00B13726 /* Note.swift */,
+				FC96EEA12EF42EAE00B13726 /* NoteStore.swift */,
+				FCE199AB2FAF530900BDB451 /* YandexVisionService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC96EE9D2EF42BFC00B13726 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC96EEA52EF42FB000B13726 /* NoteEditorViewController.swift */,
+				FC96EEA72EF42FDC00B13726 /* NotesListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC96EE9E2EF42C0700B13726 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC96EE862EF429FB00B13726 /* rachebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC96EE992EF429FC00B13726 /* Build configuration list for PBXNativeTarget "rachebook" */;
+			buildPhases = (
+				FC96EE832EF429FB00B13726 /* Sources */,
+				FC96EE842EF429FB00B13726 /* Frameworks */,
+				FC96EE852EF429FB00B13726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rachebook;
+			productName = rachebook;
+			productReference = FC96EE872EF429FB00B13726 /* rachebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC96EE7F2EF429FB00B13726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = " racheT";
+				TargetAttributes = {
+					FC96EE862EF429FB00B13726 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FC96EE822EF429FB00B13726 /* Build configuration list for PBXProject "rachebook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC96EE7E2EF429FB00B13726;
+			productRefGroup = FC96EE882EF429FB00B13726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC96EE862EF429FB00B13726 /* rachebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC96EE852EF429FB00B13726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96EE952EF429FC00B13726 /* LaunchScreen.storyboard in Resources */,
+				FC96EE922EF429FC00B13726 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC96EE832EF429FB00B13726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE199AC2FAF530900BDB451 /* YandexVisionService.swift in Sources */,
+				FC96EEA62EF42FB000B13726 /* NoteEditorViewController.swift in Sources */,
+				FC96EEA22EF42EAE00B13726 /* NoteStore.swift in Sources */,
+				FC96EE8B2EF429FB00B13726 /* AppDelegate.swift in Sources */,
+				FC96EEA82EF42FDC00B13726 /* NotesListViewController.swift in Sources */,
+				FC96EEA02EF42E4B00B13726 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC96EE932EF429FC00B13726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC96EE942EF429FC00B13726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC96EE972EF429FC00B13726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC96EE982EF429FC00B13726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC96EE9A2EF429FC00B13726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V372V5GJM3;
+				INFOPLIST_FILE = rachebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = racheT.rachebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC96EE9B2EF429FC00B13726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V372V5GJM3;
+				INFOPLIST_FILE = rachebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = racheT.rachebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC96EE822EF429FB00B13726 /* Build configuration list for PBXProject "rachebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC96EE972EF429FC00B13726 /* Debug */,
+				FC96EE982EF429FC00B13726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC96EE992EF429FC00B13726 /* Build configuration list for PBXNativeTarget "rachebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC96EE9A2EF429FC00B13726 /* Debug */,
+				FC96EE9B2EF429FC00B13726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC96EE7F2EF429FB00B13726 /* Project object */;
+}
